@@ -121,17 +121,11 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 3px;
   display: none;
+  height: 12rem;
+  overflow: auto;
 }
 
 .results h4{
   font-size: medium;
     font-weight: 400;
 }
-/* 
-@media screen and (max-width:425px) {
-  .languageDiv{
-    display: unset;
-    flex-direction: column;
-  }
-  
-} */
