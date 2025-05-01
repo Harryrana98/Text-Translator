@@ -2,24 +2,136 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: poppins,sans-serif;
+  font-family: poppins, sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+body {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  align-items: center;
+  text-align: center;
 }
 
-#wrapper h1{
- margin-bottom: 3rem;
- color: blue;
- font-weight: 600;
+#wrapper h1 {
+  margin: 1rem 0;
+  color: blue;
+  font-weight: 600;
 }
 
-.source{
-    display: flex;
+.languageDiv {
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* width: 77%; */
+  align-items: center;
+  margin-top: 1rem;
+}
+.source {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid gray; */
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+}
+
+.source label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.source select {
+  padding: 7px 5px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.target {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid gray; */
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+}
+
+.target label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.target select {
+  padding: 7px 5px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputDiv {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+}
+
+.inputDiv input {
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 25px;
+  background-color: rgb(54, 54, 234);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.results {
+  margin:16px auto;
+  text-align: justify;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px;
+  display: none;
+}
+
+.results h4{
+  font-size: medium;
+    font-weight: 400;
+}
+/* 
+@media screen and (max-width:425px) {
+  .languageDiv{
+    display: unset;
     flex-direction: column;
-    border: 2px solid;
-}
+  }
+  
+} */
