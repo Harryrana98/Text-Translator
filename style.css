@@ -121,7 +121,8 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 3px;
   display: none;
-  height: 12rem;
+  max-height: 12rem;
+  /* height: auto; */
   overflow: auto;
 }
 
