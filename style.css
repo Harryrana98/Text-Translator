@@ -29,7 +29,6 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  /* width: 77%; */
   align-items: center;
   margin-top: 1rem;
 }
@@ -129,4 +128,24 @@ button:hover {
 .results h4 {
   font-size: medium;
   font-weight: 400;
+}
+
+
+@media screen and (max-width:500px) {
+   .languageDiv{
+    flex-wrap: wrap;
+   }
+   #wrapper h1{
+    font-size: 30px;
+   }
+
+   .source {
+    width: unset;
+   }
+   .target {
+    width: unset;
+   }
+   .inputDiv {
+    width: unset;
+   }
 }
