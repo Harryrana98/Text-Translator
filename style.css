@@ -112,7 +112,7 @@ button:hover {
 }
 
 .results {
-  margin:16px auto;
+  margin: 16px auto;
   text-align: justify;
   width: 50%;
   display: flex;
@@ -126,7 +126,7 @@ button:hover {
   overflow: auto;
 }
 
-.results h4{
+.results h4 {
   font-size: medium;
-    font-weight: 400;
+  font-weight: 400;
 }
