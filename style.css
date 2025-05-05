@@ -121,7 +121,6 @@ button:hover {
   box-shadow: 0 0 3px;
   display: none;
   max-height: 12rem;
-  /* height: auto; */
   overflow: auto;
 }
 
